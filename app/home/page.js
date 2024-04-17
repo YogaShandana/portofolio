@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <div className="bg-bgHome bg-cover flex justify-center ">
+    <div className="bg-bgHome bg-cover flex justify-center lazy ">
       <div className="flex">
         <div className="max-md:ml-[2rem] ">
           <Navigate/>
